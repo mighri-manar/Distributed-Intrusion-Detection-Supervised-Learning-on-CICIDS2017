@@ -1,7 +1,11 @@
 # Distributed-Intrusion-Detection-Supervised-Learning-on-CICIDS2017
+
+
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
+
+
 A machine learning project for detecting network intrusions and web attacks using the CICIDS2017 dataset. This project demonstrates data exploration, preprocessing, and classification using multiple ML algorithms.
 
 ## 📋 Project Overview
