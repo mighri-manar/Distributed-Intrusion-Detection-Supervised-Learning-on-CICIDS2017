@@ -6,6 +6,10 @@
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
 
+> **📍 Current Status: Phase 1 - Single CSV Exploration** 
+> 
+> This is the initial phase working with a single CSV file for data exploration and ML prototyping. Full dataset processing with Apache Spark coming in Phase 2.
+
 A machine learning project for detecting network intrusions and web attacks using the CICIDS2017 dataset. This project demonstrates data exploration, preprocessing, and classification using multiple ML algorithms.
 
 ## 📋 Project Overview
@@ -19,10 +23,15 @@ This project analyzes network traffic data to identify various types of cyber at
 ### Dataset
 
 **CICIDS2017** - A comprehensive intrusion detection dataset containing labeled network flows with realistic attack scenarios.
+
+**Phase 1 - Single File Analysis:**
 - **File used**: `Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv`
+- **Reason**: Smallest file in the dataset, ideal for initial exploration and prototyping
 - **Total samples**: 170,346 network flows
 - **Features**: 78 network traffic features
 - **Classes**: 4 (Benign, Brute Force, XSS, SQL Injection)
+
+> **Note**: The full CICIDS2017 dataset contains multiple CSV files covering different days and attack types. This phase focuses on understanding the data structure and testing ML algorithms on a manageable subset.
 
 **Dataset Distribution:**
 - BENIGN: 98.72% (168,186 samples)
@@ -32,11 +41,18 @@ This project analyzes network traffic data to identify various types of cyber at
 
 ## 🎯 Objectives
 
-1. Explore and understand the CICIDS2017 dataset
-2. Preprocess network traffic data for machine learning
-3. Train and evaluate multiple classification algorithms
-4. Analyze model performance and feature importance
-5. Prepare for big data processing with Apache Spark
+**Phase 1 Goals:**
+1. ✅ Explore and understand the CICIDS2017 dataset structure
+2. ✅ Preprocess network traffic data for machine learning
+3. ✅ Train and evaluate multiple classification algorithms on single CSV
+4. ✅ Analyze model performance and feature importance
+5. ✅ Identify challenges (class imbalance, XSS detection)
+
+**Phase 2 Goals (Upcoming):**
+- Scale to full CICIDS2017 dataset (all CSV files)
+- Implement distributed processing with Apache Spark
+- Compare single-machine vs distributed performance
+- Optimize for big data workflows
 
 ## 🛠️ Technologies Used
 
@@ -130,18 +146,32 @@ The project includes:
 
 ## 🔮 Future Work
 
-### Session 2 - Apache Spark Integration
-- Scale to full CICIDS2017 dataset (multiple days)
-- Implement distributed ML with PySpark MLlib
-- Compare single-machine vs distributed performance
-- Handle larger datasets efficiently
+### Phase 2 - Apache Spark Integration (Next Session)
+- [ ] Load full CICIDS2017 dataset (all CSV files)
+- [ ] Implement distributed data processing with PySpark
+- [ ] Train ML models using PySpark MLlib
+- [ ] Compare single-machine vs distributed performance
+- [ ] Optimize for large-scale data
 
-### Potential Improvements
-- Apply SMOTE or class weighting for imbalance
-- Feature engineering for XSS-specific patterns
-- Ensemble methods with custom thresholds
-- Deep learning approaches (LSTM, CNN)
-- Real-time detection pipeline
+### Phase 3 - Advanced Techniques (Potential)
+- [ ] Apply SMOTE or class weighting for imbalance
+- [ ] Feature engineering for XSS-specific patterns
+- [ ] Ensemble methods with custom thresholds
+- [ ] Deep learning approaches (LSTM, CNN)
+- [ ] Real-time detection pipeline
+
+## 📌 Project Roadmap
+
+```
+✅ Phase 1: Single CSV Exploration (CURRENT)
+   └─ Data exploration, ML prototyping, baseline models
+
+⏳ Phase 2: Spark Integration
+   └─ Distributed processing, scalability testing
+
+🔮 Phase 3: Production-Ready System
+   └─ Advanced ML, deployment, monitoring
+```
 
 ## 🎓 Project Context
 
@@ -159,12 +189,15 @@ This project is part of a Big Data course focusing on:
 ```
 network-intrusion-detection/
 ├── data/                          # Dataset folder (not tracked)
+│   └── Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
 ├── notebooks/
-│   └── network_attack_analysis.ipynb  # Main analysis notebook
+│   └── network_attack_analysis.ipynb  # Phase 1: Single CSV analysis
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
 └── .gitignore                     # Git ignore rules
 ```
+
+**Note**: Only working with single CSV file in Phase 1. Full dataset integration in Phase 2.
 
 ## 🤝 Contributing
 
