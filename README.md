@@ -189,7 +189,7 @@ This project is for educational purposes. The CICIDS2017 dataset has its own ter
 ## 📧 Contact
 
 For questions or collaboration:
-- GitHub: [@yourusername](https://github.com/mighri-manar)
+- GitHub: [@mighri-manar](https://github.com/mighri-manar)
 
 ---
 
