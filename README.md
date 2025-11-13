@@ -110,8 +110,8 @@ Jupyter Notebook or VS Code with Jupyter extension
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/network-intrusion-detection.git
-cd network-intrusion-detection
+git clone https://github.com/yourusername/Distributed-Intrusion-Detection-Supervised-Learning-on-CICIDS2017.git
+cd Distributed-Intrusion-Detection-Supervised-Learning-on-CICIDS2017
 ```
 
 2. Install required packages:
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 1. Open the Jupyter notebook:
 ```bash
-jupyter notebook notebooks/network_attack_analysis.ipynb
+jupyter notebook notebooks/test1.ipynb
 ```
 
 2. Run all cells sequentially (or use "Run All")
@@ -187,11 +187,11 @@ This project is part of a Big Data course focusing on:
 ## 📝 Project Structure
 
 ```
-network-intrusion-detection/
+Distributed-Intrusion-Detection-Supervised-Learning-on-CICIDS2017/
 ├── data/                          # Dataset folder (not tracked)
 │   └── Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
 ├── notebooks/
-│   └── network_attack_analysis.ipynb  # Phase 1: Single CSV analysis
+│   └── test1.ipynb  # Phase 1: Single CSV analysis
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
 └── .gitignore                     # Git ignore rules
