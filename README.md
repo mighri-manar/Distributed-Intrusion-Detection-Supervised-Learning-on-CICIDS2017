@@ -68,7 +68,7 @@ A **production-ready**, **ML-powered** Intrusion Detection System that monitors 
 ## 📸 Screenshots
 
 ### Dashboard - Command Center
-![Dashboard Screenshot](path/to/screenshot-dashboard.png)
+![Dashboard Screenshot](screenshots/dash.png)
 *Real-time statistics, traffic analysis, and recent alerts*
 
 ### Live Monitor - Packet Stream
