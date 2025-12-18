@@ -642,7 +642,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-### If you found this project helpful, please consider giving it a ⭐!
+### If you found this project helpful, give it a ⭐!
 
 **Built with ❤️ for the cybersecurity community**
 
