@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![IDS Banner](path/to/banner-image.png)
+![IDS Banner](screenshots/banner.png)
 
 **AI-Powered Network Security | Real-Time Threat Detection | Interactive Dashboard**
 
