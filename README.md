@@ -72,19 +72,19 @@ A **production-ready**, **ML-powered** Intrusion Detection System that monitors 
 *Real-time statistics, traffic analysis, and recent alerts*
 
 ### Live Monitor - Packet Stream
-![Live Monitor Screenshot](path/to/screenshot-live-monitor.png)
+![Live Monitor Screenshot](screenshots/monitor.png)
 *Matrix-style packet console with detection confidence*
 
 ### Alerts - Threat Intelligence
-![Alerts Screenshot](path/to/screenshot-alerts.png)
+![Alerts Screenshot](screenshots/alert.png)
 *Detailed security alerts with severity indicators*
 
 ### Analytics - Deep Insights
-![Analytics Screenshot](path/to/screenshot-analytics.png)
+![Analytics Screenshot](screenshots/analyse.png)
 *Attack trends, protocol distribution, and targeted IPs*
 
 ### Settings - Control Panel
-![Settings Screenshot](path/to/screenshot-settings.png)
+![Settings Screenshot](screenshots/settings.png)
 *Attack simulator and system configuration*
 
 ---
