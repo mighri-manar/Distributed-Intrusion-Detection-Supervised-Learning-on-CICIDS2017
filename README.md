@@ -176,7 +176,7 @@ A **production-ready**, **ML-powered** Intrusion Detection System that monitors 
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ids-app.git
+git clone https://github.com/mighri-manar/Distributed-Intrusion-Detection-Supervised-Learning-on-CICIDS2017.git
 cd ids-app/backend
 
 # Create virtual environment
@@ -186,8 +186,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Download trained models (if not included)
-# Place models in backend/work/models_spark/
+
 ```
 
 **requirements.txt:**
