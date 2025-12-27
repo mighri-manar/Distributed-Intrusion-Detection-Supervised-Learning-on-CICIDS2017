@@ -644,7 +644,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### If you found this project helpful, give it a ⭐!
 
-**Built with ❤️ for the cybersecurity community**
+**Made with ❤️ and ☕ by Manar**
 
 
 </div>
